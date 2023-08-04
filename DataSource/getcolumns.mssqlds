@@ -1,0 +1,24 @@
+{
+  "name": "getcolumns",
+  "connectionId": "c914bb72-a9c0-43a9-b1a4-4bf5dfae6f4d",
+  "connectionName": {
+    "tr-TR": "SYNERGY"
+  },
+  "connectionType": 1,
+  "description": {},
+  "id": null,
+  "properties": {
+    "cacheTTL": 60000,
+    "cacheType": "Memory",
+    "enableCache": true,
+    "timeout": 60,
+    "commandText": "SELECT * FROM E_gorevatamasureci_feyza_Form1",
+    "parameters": [],
+    "commandType": 1,
+    "executionType": 3
+  },
+  "structure": {
+    "columns": [],
+    "returnType": null
+  }
+}

@@ -1,0 +1,238 @@
+{
+  "name": "DataSource_PersonelBilgileri",
+  "connectionId": "c914bb72-a9c0-43a9-b1a4-4bf5dfae6f4d",
+  "connectionName": {
+    "tr-TR": "SYNERGY"
+  },
+  "connectionType": 1,
+  "description": {},
+  "id": null,
+  "properties": {
+    "cacheTTL": 60000,
+    "cacheType": "Memory",
+    "enableCache": true,
+    "timeout": 60,
+    "commandText": "SELECT * from OSUSERS\r\nWHERE STATUS = 1 AND DEPARTMENT = {{PDEPID}} and ID != {{USERID}} ;",
+    "parameters": [
+      {
+        "caption": "",
+        "isActive": true,
+        "isRequired": true,
+        "key": "PDEPID",
+        "value": "%User.Department.Id%",
+        "valueType": 1,
+        "length": 255,
+        "subType": null
+      },
+      {
+        "caption": "",
+        "isActive": true,
+        "isRequired": true,
+        "key": "USERID",
+        "value": "%User.Id%",
+        "valueType": 1,
+        "length": 255,
+        "subType": null
+      }
+    ],
+    "commandType": 1,
+    "executionType": 3
+  },
+  "structure": {
+    "columns": [
+      {
+        "name": "ID",
+        "type": 3,
+        "caption": "ID",
+        "columns": []
+      },
+      {
+        "name": "USERNAME",
+        "type": 1,
+        "caption": "USERNAME",
+        "columns": []
+      },
+      {
+        "name": "FIRSTNAME",
+        "type": 1,
+        "caption": "FIRSTNAME",
+        "columns": []
+      },
+      {
+        "name": "LASTNAME",
+        "type": 1,
+        "caption": "LASTNAME",
+        "columns": []
+      },
+      {
+        "name": "PASSWORD",
+        "type": 1,
+        "caption": "PASSWORD",
+        "columns": []
+      },
+      {
+        "name": "EMAIL",
+        "type": 1,
+        "caption": "EMAIL",
+        "columns": []
+      },
+      {
+        "name": "STATUS",
+        "type": 3,
+        "caption": "STATUS",
+        "columns": []
+      },
+      {
+        "name": "IMPORTSTATUS",
+        "type": 3,
+        "caption": "IMPORTSTATUS",
+        "columns": []
+      },
+      {
+        "name": "BIRTHDATE",
+        "type": 12,
+        "caption": "BIRTHDATE",
+        "columns": []
+      },
+      {
+        "name": "EMPLOYEMENTSTART",
+        "type": 12,
+        "caption": "EMPLOYEMENTSTART",
+        "columns": []
+      },
+      {
+        "name": "EMPLOYEMENTEND",
+        "type": 12,
+        "caption": "EMPLOYEMENTEND",
+        "columns": []
+      },
+      {
+        "name": "CATEGORY",
+        "type": 3,
+        "caption": "CATEGORY",
+        "columns": []
+      },
+      {
+        "name": "SEX",
+        "type": 3,
+        "caption": "SEX",
+        "columns": []
+      },
+      {
+        "name": "TYPE",
+        "type": 3,
+        "caption": "TYPE",
+        "columns": []
+      },
+      {
+        "name": "DEPARTMENT",
+        "type": 3,
+        "caption": "DEPARTMENT",
+        "columns": []
+      },
+      {
+        "name": "PROFESSION",
+        "type": 3,
+        "caption": "PROFESSION",
+        "columns": []
+      },
+      {
+        "name": "PHONE",
+        "type": 1,
+        "caption": "PHONE",
+        "columns": []
+      },
+      {
+        "name": "MOBILEPHONE",
+        "type": 1,
+        "caption": "MOBILEPHONE",
+        "columns": []
+      },
+      {
+        "name": "REGISTRATIONNUMBER",
+        "type": 1,
+        "caption": "REGISTRATIONNUMBER",
+        "columns": []
+      },
+      {
+        "name": "WAYOFWORK",
+        "type": 1,
+        "caption": "WAYOFWORK",
+        "columns": []
+      },
+      {
+        "name": "PLACEOFBIRTH",
+        "type": 1,
+        "caption": "PLACEOFBIRTH",
+        "columns": []
+      },
+      {
+        "name": "MARITALSTATUS",
+        "type": 1,
+        "caption": "MARITALSTATUS",
+        "columns": []
+      },
+      {
+        "name": "IDENTIFICATIONNUMBER",
+        "type": 1,
+        "caption": "IDENTIFICATIONNUMBER",
+        "columns": []
+      },
+      {
+        "name": "PERSONALEMAIL",
+        "type": 1,
+        "caption": "PERSONALEMAIL",
+        "columns": []
+      },
+      {
+        "name": "PERSONALPHONE",
+        "type": 1,
+        "caption": "PERSONALPHONE",
+        "columns": []
+      },
+      {
+        "name": "PERSONALMOBILEPHONE",
+        "type": 1,
+        "caption": "PERSONALMOBILEPHONE",
+        "columns": []
+      },
+      {
+        "name": "ADDRESS",
+        "type": 1,
+        "caption": "ADDRESS",
+        "columns": []
+      },
+      {
+        "name": "EDUCATIONALSTATUS",
+        "type": 1,
+        "caption": "EDUCATIONALSTATUS",
+        "columns": []
+      },
+      {
+        "name": "SHIFTID",
+        "type": 3,
+        "caption": "SHIFTID",
+        "columns": []
+      },
+      {
+        "name": "DEFAULTCULTURE",
+        "type": 1,
+        "caption": "DEFAULTCULTURE",
+        "columns": []
+      },
+      {
+        "name": "MFAENABLED",
+        "type": 2,
+        "caption": "MFAENABLED",
+        "columns": []
+      },
+      {
+        "name": "AUTHENTICATORENABLED",
+        "type": 2,
+        "caption": "AUTHENTICATORENABLED",
+        "columns": []
+      }
+    ],
+    "returnType": 10
+  }
+}

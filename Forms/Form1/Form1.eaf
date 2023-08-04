@@ -1,0 +1,2745 @@
+{
+  "data": {
+    "Collapse1": {
+      "properties": {
+        "items": [
+          {
+            "key": "Collapse_AtanacakPersBilg",
+            "enabled": true,
+            "selected": true,
+            "title": {
+              "tr-TR": "Atanacak Personel Bilgileri"
+            },
+            "icon": "general",
+            "orderNo": 0
+          },
+          {
+            "key": "Collapse_YapilacakAksiyonlar",
+            "enabled": true,
+            "selected": false,
+            "title": {
+              "tr-TR": "Yapılacak Aksiyonlar"
+            },
+            "icon": "general",
+            "orderNo": 1
+          },
+          {
+            "key": "Collapse_GorevBilgileri",
+            "enabled": true,
+            "selected": false,
+            "title": {
+              "tr-TR": "Görev Bilgileri"
+            },
+            "icon": "general",
+            "orderNo": 2
+          }
+        ],
+        "caption": {
+          "text": {
+            "tr-TR": "Collapse1"
+          }
+        },
+        "name": "Collapse1",
+        "hasScrollbar": false,
+        "ddl": {
+          "name": "Collapse1"
+        },
+        "selectedItem": null,
+        "commitId": 114,
+        "controlType": "Collapse",
+        "controlId": "19888a6e-fec4-76d6-8de0-6cd58285fbe3"
+      },
+      "viewProperties": {},
+      "id": "Collapse1",
+      "type": "Collapse"
+    },
+    "MDAdSoyad": {
+      "properties": {
+        "caption": {
+          "text": {
+            "tr-TR": "Amir Adı"
+          }
+        },
+        "ddl": {
+          "name": "UserMetadata1"
+        },
+        "name": "MDAdSoyad",
+        "controlId": "3792f923-4ccb-403c-6ba9-9c217c5e46b6",
+        "commitId": 23,
+        "controlType": "UserMetadata"
+      },
+      "viewProperties": {},
+      "id": "MDAdSoyad",
+      "type": "UserMetadata"
+    },
+    "DTBitis": {
+      "properties": {
+        "clientEvents": [
+          {
+            "name": "OnValueChanged",
+            "methodName": "DTBitis_OnValueChanged"
+          },
+          {
+            "name": "OnValueChanging",
+            "methodName": "DTBitis_OnValueChanging"
+          }
+        ],
+        "caption": {
+          "position": "top",
+          "text": {
+            "tr-TR": "Görev Bitiş Tarihi"
+          }
+        },
+        "disableBefore": {
+          "enabled": true
+        },
+        "name": "DTBitis",
+        "ddl": {
+          "name": "DTBitis"
+        },
+        "commitId": 13,
+        "controlType": "DateTimePicker",
+        "controlId": "58acb94a-6c27-e83e-3c5f-0211b7e037cf",
+        "required": false
+      },
+      "viewProperties": {},
+      "id": "DTBitis",
+      "type": "DateTimePicker"
+    },
+    "RadioList_GorevOnemDerecesi": {
+      "properties": {
+        "items": [
+          {
+            "key": "rl_dusuk",
+            "value": "rl_dusuk",
+            "text": {
+              "tr-TR": "Düşük"
+            },
+            "selected": false
+          },
+          {
+            "key": "rl_orta",
+            "value": "rl_orta",
+            "text": {
+              "tr-TR": "Orta"
+            },
+            "selected": false
+          },
+          {
+            "key": "rl_yüksek",
+            "value": "rl_yüksek",
+            "text": {
+              "tr-TR": "Yüksek"
+            },
+            "selected": false
+          },
+          {
+            "key": "rl_kritik",
+            "value": "rl_kritik",
+            "text": {
+              "tr-TR": "Kritik"
+            },
+            "selected": false
+          }
+        ],
+        "dataSource": {
+          "connectionType": null,
+          "displayFormat": null,
+          "field": null
+        },
+        "caption": {
+          "position": "top",
+          "text": {
+            "tr-TR": "Görev Önem Derecesi"
+          }
+        },
+        "name": "RadioList_GorevOnemDerecesi",
+        "ddl": {
+          "name": "RadioList_GorevOnemDerecesi"
+        },
+        "commitId": 30,
+        "controlType": "RadioList",
+        "controlId": "eb4c436d-0fc5-af9b-e4cf-da0073bd0131",
+        "tabIndex": "",
+        "dataSourceType": "static",
+        "required": false
+      },
+      "viewProperties": {},
+      "id": "RadioList_GorevOnemDerecesi",
+      "type": "RadioList"
+    },
+    "DocMDdatetime": {
+      "properties": {
+        "caption": {
+          "text": {
+            "tr-TR": "Görev Başlangıç Tarihi"
+          }
+        },
+        "ddl": {
+          "name": "DocMDdatetime"
+        },
+        "metadataType": "CreateDate",
+        "name": "DocMDdatetime",
+        "controlId": "3cfcfd94-5878-7c03-dd41-59732094f14b",
+        "commitId": 18,
+        "dateFormat": "DD.MM.YYYY",
+        "controlType": "DocumentMetadata"
+      },
+      "viewProperties": {},
+      "id": "DocMDdatetime",
+      "type": "DocumentMetadata"
+    },
+    "Collapse_YapilacakAksiyonlar": {
+      "properties": {
+        "enabled": true,
+        "name": "Collapse_YapilacakAksiyonlar",
+        "ddl": {
+          "name": "Collapse_YapilacakAksiyonlar"
+        },
+        "orderNo": 1,
+        "commitId": 0,
+        "controlType": "Tab",
+        "title": {
+          "tr-TR": "Yapılacak Aksiyonlar"
+        },
+        "controlId": "d9b9bcc5-c9ee-717e-e446-63e8ef347f85",
+        "icon": "general",
+        "selected": false
+      },
+      "viewProperties": {},
+      "id": "Collapse_YapilacakAksiyonlar",
+      "type": "Tab"
+    },
+    "DTBaslangic": {
+      "properties": {
+        "clientEvents": [
+          {
+            "name": "OnValueChanged",
+            "methodName": "DTBaslangic_OnValueChanged"
+          }
+        ],
+        "caption": {
+          "position": "top",
+          "text": {
+            "tr-TR": "Görev Başlangıç Tarihi"
+          }
+        },
+        "name": "DTBaslangic",
+        "ddl": {
+          "name": "DTBaslangic"
+        },
+        "commitId": 14,
+        "controlId": "55f8601a-2168-5029-0d17-fef3554de4f2",
+        "required": false,
+        "controlType": "DateTimePicker"
+      },
+      "viewProperties": {},
+      "id": "DTBaslangic",
+      "type": "DateTimePicker"
+    },
+    "DocMDgorevno": {
+      "properties": {
+        "caption": {
+          "text": {
+            "tr-TR": "Görev No"
+          }
+        },
+        "ddl": {
+          "name": "DocMDgorevno"
+        },
+        "pullNumberOnStart": true,
+        "name": "DocMDgorevno",
+        "controlId": "8809181d-98a3-04c4-fbad-4bd657564468",
+        "commitId": 13,
+        "controlType": "DocumentMetadata",
+        "pullNewNumber": false
+      },
+      "viewProperties": {},
+      "id": "DocMDgorevno",
+      "type": "DocumentMetadata"
+    },
+    "NB_KalanSure": {
+      "properties": {
+        "readOnly": true,
+        "clientEvents": [
+          {
+            "name": "OnValueChanged",
+            "methodName": "NB_KalanSure_OnValueChanged"
+          },
+          {
+            "name": "OnLoad",
+            "methodName": "NB_KalanSure_OnLoad"
+          },
+          {
+            "name": "OnClick",
+            "methodName": "NB_KalanSure_OnClick"
+          }
+        ],
+        "caption": {
+          "font": {
+            "color": "rgb(0, 0, 0)"
+          },
+          "text": {
+            "tr-TR": "Görev İçin Kalan Süre (Gün)"
+          }
+        },
+        "clientVisible": false,
+        "name": "NB_KalanSure",
+        "ddl": {
+          "name": "NB_KalanSure"
+        },
+        "commitId": 29,
+        "controlType": "NumberBox",
+        "title": {
+          "tr-TR": ""
+        },
+        "controlId": "3e85a343-9fc4-7abb-32e0-6d272b29d90c",
+        "required": false
+      },
+      "viewProperties": {},
+      "id": "NB_KalanSure",
+      "type": "NumberBox"
+    },
+    "Panel1": {
+      "properties": {
+        "caption": {
+          "text": {
+            "tr-TR": "Panel1"
+          }
+        },
+        "readOnly": true,
+        "headerMode": "none",
+        "name": "Panel1",
+        "controlId": "8b209cb9-1817-529a-9aa7-9613c0f3ac84",
+        "ddl": {
+          "name": "Panel1"
+        },
+        "commitId": 14,
+        "controlType": "Panel"
+      },
+      "viewProperties": {},
+      "id": "Panel1",
+      "type": "Panel"
+    },
+    "Form1": {
+      "properties": {
+        "clientEvents": [
+          {
+            "name": "OnBeforeSave",
+            "methodName": "Form1_OnBeforeSave"
+          }
+        ],
+        "caption": {
+          "text": {
+            "tr-TR": "GorevAtamaSureci",
+            "en-US": "GorevAtamaSureci"
+          }
+        },
+        "toolbarButtons": [
+          {
+            "key": "toolbarSaveButton",
+            "name": "Kaydet",
+            "icon": "save",
+            "enabled": true,
+            "caption": {
+              "tr-TR": "Kaydet",
+              "en-US": "Save"
+            }
+          }
+        ],
+        "name": "Form1",
+        "ddl": {
+          "name": "GorevAtamaSureci"
+        },
+        "text": {
+          "tr-TR": "Form1",
+          "en-US": "Form1"
+        },
+        "identityFormatId": 135,
+        "commitId": 10,
+        "identityFormat": "gorevnumarasi_feyza",
+        "rules": {
+          "6af49538-438f-32fc-9554-d178a4acf0e4": {
+            "id": "6af49538-438f-32fc-9554-d178a4acf0e4",
+            "name": "Pozisyon1'e gelene kadar visible kapalı",
+            "enabled": true,
+            "orderNo": 0,
+            "statements": [
+              {
+                "enabled": true,
+                "collapsed": false,
+                "id": "d66b6503-8Panel1c4-bbf1-0c46-dea159f575be",
+                "typeName": "IfStatement",
+                "actions": [
+                  {
+                    "value": true,
+                    "field": {
+                      "name": "DG_Tablo1",
+                      "propertyName": "clientVisible",
+                      "type": "boolean",
+                      "enumMembers": []
+                    },
+                    "enabled": true,
+                    "id": "7345f243-696Panel1-daa7-b14f-c3561bd50987",
+                    "typeName": "ValueAssignActionWithEntry",
+                    "name": "Eylem 1"
+                  },
+                  {
+                    "value": true,
+                    "field": {
+                      "name": "NB_KalanSure",
+                      "propertyName": "clientVisible",
+                      "type": "boolean",
+                      "enumMembers": []
+                    },
+                    "enabled": true,
+                    "id": "bdPanel1ef29a-8ce9-fd0f-f58e-95f5f678251e",
+                    "typeName": "ValueAssignActionWithEntry",
+                    "name": "Eylem 2"
+                  },
+                  {
+                    "value": true,
+                    "field": {
+                      "name": "Rate_TamamlamaYuzdesi",
+                      "propertyName": "clientVisible",
+                      "type": "boolean",
+                      "enumMembers": []
+                    },
+                    "enabled": true,
+                    "id": "1f228e39-5573-e378-3319-68f2e6106500",
+                    "typeName": "ValueAssignActionWithEntry",
+                    "name": "Eylem 3"
+                  }
+                ],
+                "conditionGroup": {
+                  "id": "3343a6cd-d926-2f67-aa9a-3c8149252075",
+                  "typeName": "AndConditionGroup",
+                  "children": [],
+                  "conditions": [
+                    {
+                      "id": "7Panel1564d33-9f80-af59-49d3-d7585f8e3b13",
+                      "operation": "Equals",
+                      "typeName": "ValueEntryCondition",
+                      "field": {
+                        "name": "Form1",
+                        "propertyName": "responseParameters.workflowInfo.currentStep.name",
+                        "type": "string",
+                        "enumMembers": []
+                      },
+                      "selectedField": null,
+                      "value": "Position1"
+                    }
+                  ],
+                  "collapsed": false
+                }
+              }
+            ],
+            "actions": [
+              {
+                "value": true,
+                "field": {
+                  "name": "DG_Tablo1",
+                  "propertyName": "clientVisible",
+                  "type": "boolean",
+                  "enumMembers": []
+                },
+                "enabled": true,
+                "id": "7345f243-696Panel1-daa7-b14f-c3561bd50987",
+                "typeName": "ValueAssignActionWithEntry",
+                "name": "Eylem 1"
+              },
+              {
+                "value": true,
+                "field": {
+                  "name": "NB_KalanSure",
+                  "propertyName": "clientVisible",
+                  "type": "boolean",
+                  "enumMembers": []
+                },
+                "enabled": true,
+                "id": "bdPanel1ef29a-8ce9-fd0f-f58e-95f5f678251e",
+                "typeName": "ValueAssignActionWithEntry",
+                "name": "Eylem 2"
+              },
+              {
+                "value": true,
+                "field": {
+                  "name": "Rate_TamamlamaYuzdesi",
+                  "propertyName": "clientVisible",
+                  "type": "boolean",
+                  "enumMembers": []
+                },
+                "enabled": true,
+                "id": "1f228e39-5573-e378-3319-68f2e6106500",
+                "typeName": "ValueAssignActionWithEntry",
+                "name": "Eylem 3"
+              }
+            ],
+            "triggerEvents": [
+              "Form1.client.OnLoad"
+            ]
+          },
+          "FormRequiredFields": {
+            "id": "FormRequiredFields",
+            "name": "Personel Adı Boş Olamaz",
+            "enabled": true,
+            "orderNo": 0,
+            "statements": [
+              {
+                "enabled": true,
+                "collapsed": false,
+                "id": "FormRequiredFields_StPanel1tement_default_CBGorevlendirilecekPers",
+                "typeName": "IfStatement",
+                "actions": [
+                  {
+                    "alertType": "Warning",
+                    "dialogType": "Toaster",
+                    "messages": {
+                      "tr-TR": "Görevlendirilecek personel değeri boş olamaz.",
+                      "en-US": "Görevlendirilecek Personel: Required field"
+                    },
+                    "highlightList": [
+                      "CBGorevlendirilecekPers"
+                    ],
+                    "approvalActions": [],
+                    "rejectionActions": [],
+                    "enabled": true,
+                    "id": "FormRequiredToPanel1sterMessage_default_CBGorevlendirilecekPers",
+                    "typeName": "ValidationFailureAction",
+                    "name": "Uyarı"
+                  }
+                ],
+                "conditionGroup": {
+                  "id": "FormRequiredFields_ConditionGroup_default_CBGorevlendirilecekPers",
+                  "typeName": "AndConditionGroup",
+                  "children": [],
+                  "conditions": [
+                    {
+                      "id": "FormRequiredFields_Condition_defPanel1ult_CBGorevlendirilecekPers_value",
+                      "operation": "Null",
+                      "typeName": "ValueEntryCondition",
+                      "field": {
+                        "name": "CBGorevlendirilecekPers",
+                        "propertyName": "value",
+                        "type": "string",
+                        "enumMembers": []
+                      },
+                      "selectedField": null,
+                      "value": null
+                    },
+                    {
+                      "id": "FormRequiredFields_View_Condition_defPanel1ult_CBGorevlendirilecekPers",
+                      "operation": "Equals",
+                      "typeName": "ValueEntryCondition",
+                      "field": {
+                        "name": "Form1",
+                        "propertyName": "activeView",
+                        "type": "string",
+                        "enumMembers": []
+                      },
+                      "selectedField": null,
+                      "value": "default"
+                    }
+                  ],
+                  "collapsed": false
+                }
+              }
+            ],
+            "actions": [
+              {
+                "alertType": "Warning",
+                "dialogType": "Toaster",
+                "messages": {
+                  "tr-TR": "Görevlendirilecek personel değeri boş olamaz.",
+                  "en-US": "Görevlendirilecek Personel: Required field"
+                },
+                "highlightList": [
+                  "CBGorevlendirilecekPers"
+                ],
+                "approvalActions": [],
+                "rejectionActions": [],
+                "enabled": true,
+                "id": "FormRequiredToPanel1sterMessage_default_CBGorevlendirilecekPers",
+                "typeName": "ValidationFailureAction",
+                "name": "Uyarı"
+              }
+            ],
+            "triggerEvents": [
+              "Form1.client.OnBeforeSave",
+              "Form1.server.OnBeforeSave",
+              "Form1.client.OnToolbarButtonClicked",
+              "Form1.server.OnToolbarButtonClicked"
+            ]
+          },
+          "d2ebd3e8-644d-b142-8f9a-9872be9f64aa": {
+            "id": "d2ebd3e8-644d-b142-8f9a-9872be9f64aa",
+            "name": "Başlangıç ve Bitiş Tarihi Boş Olamaz",
+            "enabled": true,
+            "orderNo": 2,
+            "statements": [
+              {
+                "enabled": true,
+                "collapsed": true,
+                "id": "df185a57-7940-ef63-7c7b-f5b430923a6b",
+                "typeName": "IfStatement",
+                "actions": [
+                  {
+                    "alertType": "Warning",
+                    "dialogType": "Toaster",
+                    "messages": {
+                      "tr-TR": "Başlangıç tarihi değeri boş olamaz."
+                    },
+                    "highlightList": [
+                      "DTBaslangic"
+                    ],
+                    "approvalActions": [],
+                    "rejectionActions": [],
+                    "enabled": true,
+                    "id": "d42fdd59-62a6-79d8-e30d-beab17c10b2c",
+                    "typeName": "ValidationFailureAction",
+                    "name": "Uyarı"
+                  }
+                ],
+                "conditionGroup": {
+                  "id": "5ce3ead7-f2ac-df22-47eb-dfd3b7eb7c05",
+                  "typeName": "AndConditionGroup",
+                  "children": [],
+                  "conditions": [
+                    {
+                      "id": "97cf0de9-9c5e-3a1d-5c1b-feaf10977da1",
+                      "operation": "Null",
+                      "typeName": "ValueEntryCondition",
+                      "field": {
+                        "name": "DTBaslangic",
+                        "propertyName": "text",
+                        "type": "string",
+                        "enumMembers": []
+                      },
+                      "selectedField": null,
+                      "value": "null"
+                    }
+                  ],
+                  "collapsed": false
+                }
+              },
+              {
+                "enabled": true,
+                "collapsed": true,
+                "id": "e0fef923-bb00-6e90-b7fd-afd893fe5866",
+                "typeName": "IfStatement",
+                "actions": [
+                  {
+                    "alertType": "Warning",
+                    "dialogType": "Toaster",
+                    "messages": {
+                      "tr-TR": "Bitiş tarihi değeri boş olamaz."
+                    },
+                    "highlightList": [
+                      "DTBitis"
+                    ],
+                    "approvalActions": [],
+                    "rejectionActions": [],
+                    "enabled": true,
+                    "id": "dfbb750d-b906-47ea-ab81-859ab419f54d",
+                    "typeName": "ValidationFailureAction",
+                    "name": "Uyar"
+                  }
+                ],
+                "conditionGroup": {
+                  "id": "b820e516-9c7c-1b8f-f563-eda2c79cb55d",
+                  "typeName": "AndConditionGroup",
+                  "children": [],
+                  "conditions": [
+                    {
+                      "id": "e0440da5-0677-9a43-4858-555c3d4964e6",
+                      "operation": "Null",
+                      "typeName": "ValueEntryCondition",
+                      "field": {
+                        "name": "DTBitis",
+                        "propertyName": "text",
+                        "type": "string",
+                        "enumMembers": []
+                      },
+                      "selectedField": null,
+                      "value": null
+                    }
+                  ],
+                  "collapsed": false
+                }
+              }
+            ],
+            "actions": [
+              {
+                "alertType": "Warning",
+                "dialogType": "Toaster",
+                "messages": {
+                  "tr-TR": "Başlangıç tarihi değeri boş olamaz."
+                },
+                "highlightList": [
+                  "DTBaslangic"
+                ],
+                "approvalActions": [],
+                "rejectionActions": [],
+                "enabled": true,
+                "id": "d42fdd59-62a6-79d8-e30d-beab17c10b2c",
+                "typeName": "ValidationFailureAction",
+                "name": "Uyarı"
+              },
+              {
+                "alertType": "Warning",
+                "dialogType": "Toaster",
+                "messages": {
+                  "tr-TR": "Bitiş tarihi değeri boş olamaz."
+                },
+                "highlightList": [
+                  "DTBitis"
+                ],
+                "approvalActions": [],
+                "rejectionActions": [],
+                "enabled": true,
+                "id": "dfbb750d-b906-47ea-ab81-859ab419f54d",
+                "typeName": "ValidationFailureAction",
+                "name": "Uyar"
+              }
+            ],
+            "triggerEvents": [
+              "Form1.client.OnBeforeSave"
+            ]
+          },
+          "bd909c3c-1a28-c113-cf2e-ead1b27b0ace": {
+            "id": "bd909c3c-1a28-c113-cf2e-ead1b27b0ace",
+            "name": "PanelAktiflestirme",
+            "enabled": true,
+            "orderNo": 3,
+            "statements": [
+              {
+                "enabled": true,
+                "collapsed": false,
+                "id": "ce33e64f-7be8-95d8-332d-f30dcff0870e",
+                "typeName": "IfStatement",
+                "actions": [
+                  {
+                    "value": true,
+                    "field": {
+                      "name": "Collapse1",
+                      "propertyName": "readOnly",
+                      "type": "boolean",
+                      "enumMembers": []
+                    },
+                    "enabled": true,
+                    "id": "a604bad2-b700-5a2a-81e9-0121e794c7a2",
+                    "typeName": "ValueAssignActionWithEntry",
+                    "name": "collapse nesnesi"
+                  },
+                  {
+                    "value": true,
+                    "field": {
+                      "name": "DTBaslangic",
+                      "propertyName": "readOnly",
+                      "type": "boolean",
+                      "enumMembers": []
+                    },
+                    "enabled": true,
+                    "id": "2c99d238-3c28-b97a-ef31-d7ffe00b9866",
+                    "typeName": "ValueAssignActionWithEntry",
+                    "name": "başlangıç"
+                  },
+                  {
+                    "value": true,
+                    "field": {
+                      "name": "DTBitis",
+                      "propertyName": "readOnly",
+                      "type": "boolean",
+                      "enumMembers": []
+                    },
+                    "enabled": true,
+                    "id": "fc76060c-ec72-a1d4-6a86-72f512a83528",
+                    "typeName": "ValueAssignActionWithEntry",
+                    "name": "bitiş"
+                  },
+                  {
+                    "value": true,
+                    "field": {
+                      "name": "RadioList_GorevOnemDerecesi",
+                      "propertyName": "readOnly",
+                      "type": "boolean",
+                      "enumMembers": []
+                    },
+                    "enabled": true,
+                    "id": "360cf69c-c78c-9dc6-3860-2b9337ba45e4",
+                    "typeName": "ValueAssignActionWithEntry",
+                    "name": "ratelist"
+                  },
+                  {
+                    "value": true,
+                    "field": {
+                      "name": "LB_GorevSorulari",
+                      "propertyName": "readOnly",
+                      "type": "boolean",
+                      "enumMembers": []
+                    },
+                    "enabled": true,
+                    "id": "f35f20a1-a658-d4c5-bdc6-93d1a18ebb74",
+                    "typeName": "ValueAssignActionWithEntry",
+                    "name": "listbox"
+                  },
+                  {
+                    "value": true,
+                    "field": {
+                      "name": "TBGorevAdi",
+                      "propertyName": "readOnly",
+                      "type": "boolean",
+                      "enumMembers": []
+                    },
+                    "enabled": true,
+                    "id": "8a29272c-badc-7722-ac35-2f39291dbe7f",
+                    "typeName": "ValueAssignActionWithEntry",
+                    "name": "görev adı"
+                  },
+                  {
+                    "value": true,
+                    "field": {
+                      "name": "TAGorevTanimi",
+                      "propertyName": "readOnly",
+                      "type": "boolean",
+                      "enumMembers": []
+                    },
+                    "enabled": true,
+                    "id": "aa49585e-b5fb-026d-0694-2a32d99d94d5",
+                    "typeName": "ValueAssignActionWithEntry",
+                    "name": "görev tanımı"
+                  },
+                  {
+                    "value": true,
+                    "field": {
+                      "name": "RDGorevDosyalari",
+                      "propertyName": "readOnly",
+                      "type": "boolean",
+                      "enumMembers": []
+                    },
+                    "enabled": true,
+                    "id": "b5adf3c6-1033-7304-e160-a48936f4f18f",
+                    "typeName": "ValueAssignActionWithEntry",
+                    "name": "dosyalar"
+                  }
+                ],
+                "conditionGroup": {
+                  "id": "cc90d3ec-5be3-1ce0-992d-f61c59ad8736",
+                  "typeName": "AndConditionGroup",
+                  "children": [],
+                  "conditions": [
+                    {
+                      "id": "51274136-f2cc-b55a-dc2c-9eff770cd0b3",
+                      "operation": "Equals",
+                      "typeName": "ValueEntryCondition",
+                      "field": {
+                        "name": "Form1",
+                        "propertyName": "responseParameters.workflowInfo.currentStep.name",
+                        "type": "string",
+                        "enumMembers": []
+                      },
+                      "selectedField": null,
+                      "value": "Position1"
+                    }
+                  ],
+                  "collapsed": false
+                }
+              }
+            ],
+            "actions": [
+              {
+                "value": true,
+                "field": {
+                  "name": "Collapse1",
+                  "propertyName": "readOnly",
+                  "type": "boolean",
+                  "enumMembers": []
+                },
+                "enabled": true,
+                "id": "a604bad2-b700-5a2a-81e9-0121e794c7a2",
+                "typeName": "ValueAssignActionWithEntry",
+                "name": "collapse nesnesi"
+              },
+              {
+                "value": true,
+                "field": {
+                  "name": "DTBaslangic",
+                  "propertyName": "readOnly",
+                  "type": "boolean",
+                  "enumMembers": []
+                },
+                "enabled": true,
+                "id": "2c99d238-3c28-b97a-ef31-d7ffe00b9866",
+                "typeName": "ValueAssignActionWithEntry",
+                "name": "başlangıç"
+              },
+              {
+                "value": true,
+                "field": {
+                  "name": "DTBitis",
+                  "propertyName": "readOnly",
+                  "type": "boolean",
+                  "enumMembers": []
+                },
+                "enabled": true,
+                "id": "fc76060c-ec72-a1d4-6a86-72f512a83528",
+                "typeName": "ValueAssignActionWithEntry",
+                "name": "bitiş"
+              },
+              {
+                "value": true,
+                "field": {
+                  "name": "RadioList_GorevOnemDerecesi",
+                  "propertyName": "readOnly",
+                  "type": "boolean",
+                  "enumMembers": []
+                },
+                "enabled": true,
+                "id": "360cf69c-c78c-9dc6-3860-2b9337ba45e4",
+                "typeName": "ValueAssignActionWithEntry",
+                "name": "ratelist"
+              },
+              {
+                "value": true,
+                "field": {
+                  "name": "LB_GorevSorulari",
+                  "propertyName": "readOnly",
+                  "type": "boolean",
+                  "enumMembers": []
+                },
+                "enabled": true,
+                "id": "f35f20a1-a658-d4c5-bdc6-93d1a18ebb74",
+                "typeName": "ValueAssignActionWithEntry",
+                "name": "listbox"
+              },
+              {
+                "value": true,
+                "field": {
+                  "name": "TBGorevAdi",
+                  "propertyName": "readOnly",
+                  "type": "boolean",
+                  "enumMembers": []
+                },
+                "enabled": true,
+                "id": "8a29272c-badc-7722-ac35-2f39291dbe7f",
+                "typeName": "ValueAssignActionWithEntry",
+                "name": "görev adı"
+              },
+              {
+                "value": true,
+                "field": {
+                  "name": "TAGorevTanimi",
+                  "propertyName": "readOnly",
+                  "type": "boolean",
+                  "enumMembers": []
+                },
+                "enabled": true,
+                "id": "aa49585e-b5fb-026d-0694-2a32d99d94d5",
+                "typeName": "ValueAssignActionWithEntry",
+                "name": "görev tanımı"
+              },
+              {
+                "value": true,
+                "field": {
+                  "name": "RDGorevDosyalari",
+                  "propertyName": "readOnly",
+                  "type": "boolean",
+                  "enumMembers": []
+                },
+                "enabled": true,
+                "id": "b5adf3c6-1033-7304-e160-a48936f4f18f",
+                "typeName": "ValueAssignActionWithEntry",
+                "name": "dosyalar"
+              },
+              {
+                "value": false,
+                "field": {
+                  "name": "Panel1",
+                  "propertyName": "readOnly",
+                  "type": "boolean",
+                  "enumMembers": []
+                },
+                "enabled": true,
+                "id": "44bef98a-ebaf-29ad-3fe7-1921b432acc0",
+                "typeName": "ValueAssignActionWithEntry",
+                "name": "panel"
+              }
+            ],
+            "triggerEvents": [
+              "Form1.client.OnLoad"
+            ]
+          },
+          "45a52270-f7de-213f-3007-8304f0a8486e": {
+            "id": "45a52270-f7de-213f-3007-8304f0a8486e",
+            "name": "Başlangıç Tarihi Bitiş Tarihinden Büyük Olamaz",
+            "enabled": true,
+            "orderNo": 4,
+            "statements": [
+              {
+                "enabled": true,
+                "collapsed": false,
+                "id": "2ab21bc0-4970-b7d5-9356-f7e15c32c50c",
+                "typeName": "IfStatement",
+                "actions": [
+                  {
+                    "alertType": "Warning",
+                    "dialogType": "Toaster",
+                    "messages": {
+                      "tr-TR": "Başlangıç tarihi bitiş tarihinden büyük olamaz."
+                    },
+                    "highlightList": [
+                      "DTBitis"
+                    ],
+                    "approvalActions": [],
+                    "rejectionActions": [],
+                    "enabled": true,
+                    "id": "6f0f3bf6-3e4f-27aa-43e5-c6258931a1e9",
+                    "typeName": "ValidationFailureAction",
+                    "name": "Uyarı"
+                  }
+                ],
+                "conditionGroup": {
+                  "id": "3b4d5de8-eb4b-7518-aaf6-0af569d48c50",
+                  "typeName": "AndConditionGroup",
+                  "children": [],
+                  "conditions": [
+                    {
+                      "id": "ed35645c-13a3-472e-32b7-959807a4584d",
+                      "operation": "GreaterThan",
+                      "typeName": "FieldSelectionCondition",
+                      "field": {
+                        "name": "DTBaslangic",
+                        "propertyName": "value",
+                        "type": "date",
+                        "enumMembers": []
+                      },
+                      "selectedField": {
+                        "name": "DTBitis",
+                        "propertyName": "value",
+                        "type": "date",
+                        "enumMembers": []
+                      },
+                      "value": null
+                    }
+                  ],
+                  "collapsed": false
+                }
+              }
+            ],
+            "actions": [
+              {
+                "alertType": "Warning",
+                "dialogType": "Toaster",
+                "messages": {
+                  "tr-TR": "Başlangıç tarihi bitiş tarihinden büyük olamaz."
+                },
+                "highlightList": [
+                  "DTBitis"
+                ],
+                "approvalActions": [],
+                "rejectionActions": [],
+                "enabled": true,
+                "id": "6f0f3bf6-3e4f-27aa-43e5-c6258931a1e9",
+                "typeName": "ValidationFailureAction",
+                "name": "Uyarı"
+              }
+            ],
+            "triggerEvents": [
+              "Form1.client.OnBeforeSave"
+            ]
+          },
+          "4028bd0e-d2fd-d29c-9705-ac0b8aca859e": {
+            "id": "4028bd0e-d2fd-d29c-9705-ac0b8aca859e",
+            "name": "Amir Görünürlük Ayarları",
+            "enabled": true,
+            "orderNo": 5,
+            "statements": [
+              {
+                "enabled": true,
+                "collapsed": false,
+                "id": "f7a24949-6bb8-ac36-fabd-f8cd5ea0b59f",
+                "typeName": "IfStatement",
+                "actions": [
+                  {
+                    "value": true,
+                    "field": {
+                      "name": "DG_Tablo1",
+                      "propertyName": "clientVisible",
+                      "type": "boolean",
+                      "enumMembers": []
+                    },
+                    "enabled": true,
+                    "id": "8eba871c-0ec6-d85a-f8cf-8ef1589faf5d",
+                    "typeName": "ValueAssignActionWithEntry",
+                    "name": "dg görünürlük"
+                  },
+                  {
+                    "value": true,
+                    "field": {
+                      "name": "NB_KalanSure",
+                      "propertyName": "clientVisible",
+                      "type": "boolean",
+                      "enumMembers": []
+                    },
+                    "enabled": true,
+                    "id": "751073aa-da7d-4fef-e7dd-34911c733c43",
+                    "typeName": "ValueAssignActionWithEntry",
+                    "name": "kalan süre görünürlük"
+                  },
+                  {
+                    "value": true,
+                    "field": {
+                      "name": "Rate_TamamlamaYuzdesi",
+                      "propertyName": "clientVisible",
+                      "type": "boolean",
+                      "enumMembers": []
+                    },
+                    "enabled": true,
+                    "id": "a28894b2-83f3-347a-d475-e1ea871ec9a1",
+                    "typeName": "ValueAssignActionWithEntry",
+                    "name": "yıldız görünürlük"
+                  },
+                  {
+                    "value": true,
+                    "field": {
+                      "name": "Panel1",
+                      "propertyName": "clientVisible",
+                      "type": "boolean",
+                      "enumMembers": []
+                    },
+                    "enabled": true,
+                    "id": "7c47eba9-90d3-eb33-2ab7-4d8c466c61f8",
+                    "typeName": "ValueAssignActionWithEntry",
+                    "name": "panel görünürlük"
+                  }
+                ],
+                "conditionGroup": {
+                  "id": "300882c8-22a0-2225-6068-14e53991ccf6",
+                  "typeName": "AndConditionGroup",
+                  "children": [],
+                  "conditions": [
+                    {
+                      "id": "dcfe130a-b1e6-0ca9-5772-ae74dfd50272",
+                      "operation": "Equals",
+                      "typeName": "ValueEntryCondition",
+                      "field": {
+                        "name": "Form1",
+                        "propertyName": "responseParameters.workflowInfo.currentStep.name",
+                        "type": "string",
+                        "enumMembers": []
+                      },
+                      "selectedField": null,
+                      "value": "Position2"
+                    }
+                  ],
+                  "collapsed": false
+                }
+              }
+            ],
+            "actions": [
+              {
+                "value": true,
+                "field": {
+                  "name": "DG_Tablo1",
+                  "propertyName": "clientVisible",
+                  "type": "boolean",
+                  "enumMembers": []
+                },
+                "enabled": true,
+                "id": "8eba871c-0ec6-d85a-f8cf-8ef1589faf5d",
+                "typeName": "ValueAssignActionWithEntry",
+                "name": "dg görünürlük"
+              },
+              {
+                "value": true,
+                "field": {
+                  "name": "NB_KalanSure",
+                  "propertyName": "clientVisible",
+                  "type": "boolean",
+                  "enumMembers": []
+                },
+                "enabled": true,
+                "id": "751073aa-da7d-4fef-e7dd-34911c733c43",
+                "typeName": "ValueAssignActionWithEntry",
+                "name": "kalan süre görünürlük"
+              },
+              {
+                "value": true,
+                "field": {
+                  "name": "Rate_TamamlamaYuzdesi",
+                  "propertyName": "clientVisible",
+                  "type": "boolean",
+                  "enumMembers": []
+                },
+                "enabled": true,
+                "id": "a28894b2-83f3-347a-d475-e1ea871ec9a1",
+                "typeName": "ValueAssignActionWithEntry",
+                "name": "yıldız görünürlük"
+              },
+              {
+                "value": true,
+                "field": {
+                  "name": "Panel1",
+                  "propertyName": "clientVisible",
+                  "type": "boolean",
+                  "enumMembers": []
+                },
+                "enabled": true,
+                "id": "7c47eba9-90d3-eb33-2ab7-4d8c466c61f8",
+                "typeName": "ValueAssignActionWithEntry",
+                "name": "panel görünürlük"
+              }
+            ],
+            "triggerEvents": [
+              "Form1.client.OnLoad"
+            ]
+          }
+        },
+        "controlType": "Form",
+        "controlId": "d5017094-681b-440c-9df3-c975104149ab"
+      },
+      "viewProperties": {},
+      "id": "Form1",
+      "type": "Form"
+    },
+    "Collapse_GorevBilgileri": {
+      "properties": {
+        "enabled": true,
+        "name": "Collapse_GorevBilgileri",
+        "ddl": {
+          "name": "Collapse_GorevBilgileri"
+        },
+        "orderNo": 2,
+        "commitId": 1,
+        "controlType": "Tab",
+        "title": {
+          "tr-TR": "Görev Bilgileri"
+        },
+        "controlId": "522bc0ec-0700-3a53-141c-ca820876cc36",
+        "icon": "general",
+        "selected": false
+      },
+      "viewProperties": {},
+      "id": "Collapse_GorevBilgileri",
+      "type": "Tab"
+    },
+    "CBGorevlendirilecekPers": {
+      "properties": {
+        "dataFields": [
+          {
+            "name": "ID",
+            "type": "number"
+          },
+          {
+            "name": "FORMID",
+            "type": "number"
+          },
+          {
+            "name": "VERSION",
+            "type": "number"
+          },
+          {
+            "name": "DOCUMENTID",
+            "type": "number"
+          },
+          {
+            "name": "UNIQUEID",
+            "type": "string"
+          },
+          {
+            "name": "LASTMODIFIEDDATE",
+            "type": "date"
+          },
+          {
+            "name": "CREATEDAT",
+            "type": "date"
+          },
+          {
+            "name": "CREATEDBY",
+            "type": "number"
+          },
+          {
+            "name": "MODIFIEDAT",
+            "type": "date"
+          },
+          {
+            "name": "MODIFIEDBY",
+            "type": "number"
+          },
+          {
+            "name": "DELETEDAT",
+            "type": "date"
+          },
+          {
+            "name": "DELETEDBY",
+            "type": "number"
+          }
+        ],
+        "dataSource": {
+          "fileId": "<DataSource-DataSource_PersonelBilgileri>",
+          "displayExpr": [
+            "FIRSTNAME",
+            "LASTNAME"
+          ],
+          "valueExpr": "ID",
+          "name": "DataSource_PersonelBilgileri",
+          "connectionType": 1,
+          "displayFormat": "{{ FIRSTNAME }} {{ LASTNAME }}"
+        },
+        "showSearch": false,
+        "caption": {
+          "position": "top",
+          "text": {
+            "tr-TR": "Görevlendirilecek Personel"
+          }
+        },
+        "name": "CBGorevlendirilecekPers",
+        "ddl": {
+          "name": "CBGorevlendirilecekPers"
+        },
+        "iconExpr": "",
+        "commitId": 30,
+        "controlType": "ComboBox",
+        "controlId": "2f5fe92b-60ec-782b-616d-ca5d6ee0cade",
+        "required": false
+      },
+      "viewProperties": {},
+      "id": "CBGorevlendirilecekPers",
+      "type": "ComboBox"
+    },
+    "Collapse_": {
+      "properties": {
+        "enabled": true,
+        "name": "Collapse_",
+        "ddl": {
+          "name": "Collapse_"
+        },
+        "orderNo": 0,
+        "commitId": 0,
+        "controlType": "Tab",
+        "title": {
+          "tr-TR": "deneme"
+        },
+        "controlId": "675b77d4-a7a9-a506-8b67-54975a3b92ed",
+        "icon": "general",
+        "selected": true
+      },
+      "viewProperties": {},
+      "id": "Collapse_",
+      "type": "Tab"
+    },
+    "TAGorevTanimi": {
+      "properties": {
+        "caption": {
+          "text": {
+            "tr-TR": "Görev Tanımı"
+          }
+        },
+        "name": "TAGorevTanimi",
+        "ddl": {
+          "name": "TAGorevTanimi"
+        },
+        "commitId": 9,
+        "controlId": "0b5b38de-5c5a-63db-efcc-f9718ca34a7e",
+        "controlType": "TextArea",
+        "required": false
+      },
+      "viewProperties": {},
+      "id": "TAGorevTanimi",
+      "type": "TextArea"
+    },
+    "RDGorevDosyalari": {
+      "properties": {
+        "caption": {
+          "text": {
+            "tr-TR": "Görev ile İlgili Dosyalar"
+          }
+        },
+        "showCreateDate": true,
+        "categories": [
+          {
+            "categoryId": "8cdc7a6d-994e-4b01-1950-e4190f50a91e",
+            "name": {
+              "tr-TR": "Varsayılan"
+            },
+            "description": {
+              "tr-TR": "Varsayılan"
+            },
+            "minFilesCount": 0,
+            "maxFilesCount": null,
+            "enabled": true
+          }
+        ],
+        "name": "RDGorevDosyalari",
+        "ddl": {
+          "name": "RDGorevDosyalari"
+        },
+        "controlId": "8d27f12a-d1ea-c8b2-2f50-ece7951b3cd7",
+        "commitId": 13,
+        "controlType": "RelatedDocuments"
+      },
+      "viewProperties": {},
+      "id": "RDGorevDosyalari",
+      "type": "RelatedDocuments"
+    },
+    "DG_Tablo1": {
+      "properties": {
+        "clientEvents": [
+          {
+            "name": "OnRowInserting",
+            "methodName": "DG_Tablo1_OnRowInserting"
+          },
+          {
+            "name": "OnRowInserted",
+            "methodName": "DG_Tablo1_OnRowInserted"
+          },
+          {
+            "name": "OnRowUpdated",
+            "methodName": "DG_Tablo1_OnRowUpdated"
+          }
+        ],
+        "caption": {
+          "text": {
+            "tr-TR": "DG_Tablo"
+          },
+          "visible": false
+        },
+        "clientVisible": false,
+        "name": "DG_Tablo1",
+        "ddl": {
+          "name": "DG_Tablo1"
+        },
+        "commitId": 21,
+        "controlType": "DataGrid",
+        "editing": {
+          "showAddCommand": true,
+          "showDeleteCommand": true,
+          "showEditCommand": true
+        },
+        "controlId": "11cfc2c9-2e1c-29b1-c55e-e1f5ed0a360c",
+        "columns": [
+          {
+            "name": "column_id",
+            "caption": {
+              "tr-TR": "ID"
+            },
+            "width": 100,
+            "align": "left",
+            "wordWrapEnabled": false,
+            "visible": false,
+            "sorting": {
+              "index": 0,
+              "order": "asc",
+              "enabled": true
+            },
+            "editingEnabled": true,
+            "filtering": {
+              "enabled": false,
+              "operation": "Contains",
+              "value": null
+            },
+            "headerFilterEnabled": false,
+            "summaryTypes": [],
+            "summaryTypePrefixes": [],
+            "editControl": {
+              "name": "NewColumn1",
+              "controlId": "NewColumn1",
+              "controlType": "NumberBox",
+              "visible": true,
+              "clientVisible": true,
+              "enabled": true,
+              "clientEnabled": true,
+              "style": {
+                "backgroundColor": ""
+              },
+              "containerStyle": {},
+              "customClassName": "",
+              "caption": {
+                "ellipsis": true,
+                "font": {
+                  "bold": false,
+                  "color": "#25241f",
+                  "family": "Source Sans Pro, sans-serif",
+                  "italic": false,
+                  "size": "13",
+                  "strikethrough": false,
+                  "underline": false
+                },
+                "position": "left",
+                "text": {},
+                "visible": true,
+                "size": {
+                  "width": 120
+                },
+                "horizontalAlign": "left",
+                "verticalAlign": "middle",
+                "showColon": false,
+                "markSettings": {
+                  "char": null,
+                  "position": "atFirst",
+                  "style": {}
+                }
+              },
+              "designerProps": {
+                "selected": false,
+                "allowAutoClear": true
+              },
+              "readOnly": false,
+              "ddl": {
+                "name": "column_id",
+                "allowNull": true,
+                "type": "Decimal",
+                "size": 19,
+                "precision": 5
+              },
+              "text": "",
+              "placeholder": {},
+              "textAlign": "right",
+              "max": 99999999999999,
+              "step": 1,
+              "precision": 0,
+              "useThousandSeparator": false,
+              "maxLength": 19,
+              "EntityPath": "column_id"
+            },
+            "defaultValue": null,
+            "isPrimaryKey": true,
+            "autoIncrement": true,
+            "useThousandSeparator": false,
+            "precision": 0,
+            "format": null,
+            "hidingPriority": null,
+            "actionButtonProps": {
+              "name": "",
+              "text": {},
+              "title": {},
+              "icon": "search",
+              "typeName": "CreateFormArgs",
+              "args": {
+                "typeName": "CreateFormArgs",
+                "formName": null,
+                "projectName": null,
+                "size": 1,
+                "showOn": "panel",
+                "closeCurrentPanel": false,
+                "parameters": []
+              },
+              "visible": true
+            },
+            "iconMatchers": [],
+            "allowHiding": true,
+            "allowNull": true,
+            "showEditorAlways": false,
+            "dbType": {
+              "type": "string",
+              "columnName": "column_id"
+            },
+            "formatType": {
+              "format": "",
+              "type": "label"
+            },
+            "editType": "numberBox",
+            "sourceType": "base64",
+            "enlargeOnClick": false,
+            "imageWidth": 100,
+            "sizeUnit": "pixels",
+            "imageType": "smallImage",
+            "defaultImage": null,
+            "key": "0"
+          },
+          {
+            "name": "column_date",
+            "caption": {
+              "tr-TR": "Tarih"
+            },
+            "width": 100,
+            "align": "center",
+            "wordWrapEnabled": false,
+            "visible": true,
+            "sorting": {
+              "index": 0,
+              "order": "asc",
+              "enabled": true
+            },
+            "editingEnabled": false,
+            "filtering": {
+              "enabled": false,
+              "operation": "Contains",
+              "value": null
+            },
+            "headerFilterEnabled": false,
+            "summaryTypes": [],
+            "summaryTypePrefixes": [],
+            "editControl": {
+              "name": "NewColumn1",
+              "controlId": "NewColumn1",
+              "controlType": "DateTimePicker",
+              "visible": true,
+              "clientVisible": true,
+              "enabled": true,
+              "clientEnabled": true,
+              "style": {
+                "backgroundColor": ""
+              },
+              "containerStyle": {},
+              "customClassName": "",
+              "caption": {
+                "ellipsis": true,
+                "font": {
+                  "bold": false,
+                  "color": "#25241f",
+                  "family": "Source Sans Pro, sans-serif",
+                  "italic": false,
+                  "size": "13",
+                  "strikethrough": false,
+                  "underline": false
+                },
+                "position": "left",
+                "text": {},
+                "visible": true,
+                "size": {
+                  "width": 120
+                },
+                "horizontalAlign": "left",
+                "verticalAlign": "middle",
+                "showColon": false,
+                "markSettings": {
+                  "char": null,
+                  "position": "atFirst",
+                  "style": {}
+                }
+              },
+              "designerProps": {
+                "selected": false,
+                "allowAutoClear": true
+              },
+              "readOnly": false,
+              "ddl": {
+                "name": "column_date",
+                "allowNull": true,
+                "type": "DateTimeOffset"
+              },
+              "value": null,
+              "text": "",
+              "placeholder": {},
+              "textAlign": "left",
+              "format": "",
+              "showTime": false,
+              "showToday": false,
+              "setTodayAsDefault": false,
+              "allowClear": true,
+              "disableAfter": {
+                "enabled": false,
+                "years": 0,
+                "months": 0,
+                "days": 0
+              },
+              "disableBefore": {
+                "enabled": false,
+                "years": 0,
+                "months": 0,
+                "days": 0
+              },
+              "EntityPath": "column_date"
+            },
+            "defaultValue": null,
+            "isPrimaryKey": false,
+            "autoIncrement": false,
+            "useThousandSeparator": false,
+            "precision": 0,
+            "format": null,
+            "hidingPriority": null,
+            "actionButtonProps": {
+              "name": "",
+              "text": {},
+              "title": {},
+              "icon": "search",
+              "typeName": "CreateFormArgs",
+              "args": {
+                "typeName": "CreateFormArgs",
+                "formName": null,
+                "projectName": null,
+                "size": 1,
+                "showOn": "panel",
+                "closeCurrentPanel": false,
+                "parameters": []
+              },
+              "visible": true
+            },
+            "iconMatchers": [],
+            "allowHiding": true,
+            "allowNull": true,
+            "showEditorAlways": false,
+            "dbType": {
+              "type": "date",
+              "columnName": "column_date"
+            },
+            "formatType": {
+              "format": "",
+              "type": "label"
+            },
+            "editType": "datePicker",
+            "sourceType": "base64",
+            "enlargeOnClick": false,
+            "imageWidth": 100,
+            "sizeUnit": "pixels",
+            "imageType": "smallImage",
+            "defaultImage": null,
+            "key": "1"
+          },
+          {
+            "name": "column_asama",
+            "caption": {
+              "tr-TR": "Aşama (%)"
+            },
+            "width": 100,
+            "align": "center",
+            "wordWrapEnabled": false,
+            "visible": true,
+            "sorting": {
+              "index": 0,
+              "order": "asc",
+              "enabled": true
+            },
+            "editingEnabled": false,
+            "filtering": {
+              "enabled": false,
+              "operation": "Contains",
+              "value": null
+            },
+            "headerFilterEnabled": false,
+            "summaryTypes": [],
+            "summaryTypePrefixes": [],
+            "editControl": {
+              "name": "NewColumn1",
+              "controlId": "NewColumn1",
+              "controlType": "NumberBox",
+              "visible": true,
+              "clientVisible": true,
+              "enabled": true,
+              "clientEnabled": true,
+              "style": {
+                "backgroundColor": ""
+              },
+              "containerStyle": {},
+              "customClassName": "",
+              "caption": {
+                "ellipsis": true,
+                "font": {
+                  "bold": false,
+                  "color": "#25241f",
+                  "family": "Source Sans Pro, sans-serif",
+                  "italic": false,
+                  "size": "13",
+                  "strikethrough": false,
+                  "underline": false
+                },
+                "position": "left",
+                "text": {},
+                "visible": true,
+                "size": {
+                  "width": 120
+                },
+                "horizontalAlign": "left",
+                "verticalAlign": "middle",
+                "showColon": false,
+                "markSettings": {
+                  "char": null,
+                  "position": "atFirst",
+                  "style": {}
+                }
+              },
+              "designerProps": {
+                "selected": false,
+                "allowAutoClear": true
+              },
+              "readOnly": false,
+              "ddl": {
+                "name": "column_asama",
+                "allowNull": true,
+                "type": "Decimal",
+                "size": 19,
+                "precision": 5
+              },
+              "text": "",
+              "placeholder": {},
+              "textAlign": "right",
+              "max": 99999999999999,
+              "step": 1,
+              "precision": 0,
+              "useThousandSeparator": false,
+              "maxLength": 19,
+              "EntityPath": "column_asama"
+            },
+            "defaultValue": null,
+            "isPrimaryKey": false,
+            "autoIncrement": false,
+            "useThousandSeparator": false,
+            "precision": 0,
+            "format": null,
+            "hidingPriority": null,
+            "actionButtonProps": {
+              "name": "",
+              "text": {},
+              "title": {},
+              "icon": "search",
+              "typeName": "CreateFormArgs",
+              "args": {
+                "typeName": "CreateFormArgs",
+                "formName": null,
+                "projectName": null,
+                "size": 1,
+                "showOn": "panel",
+                "closeCurrentPanel": false,
+                "parameters": []
+              },
+              "visible": true
+            },
+            "iconMatchers": [],
+            "allowHiding": true,
+            "allowNull": true,
+            "showEditorAlways": false,
+            "dbType": {
+              "type": "string",
+              "columnName": "column_asama"
+            },
+            "formatType": {
+              "format": "",
+              "type": "label"
+            },
+            "editType": "numberBox",
+            "sourceType": "base64",
+            "enlargeOnClick": false,
+            "imageWidth": 100,
+            "sizeUnit": "pixels",
+            "imageType": "smallImage",
+            "defaultImage": null,
+            "key": "2"
+          },
+          {
+            "name": "column_asamayorumu",
+            "caption": {
+              "tr-TR": "Aşama Yorumu"
+            },
+            "width": 100,
+            "align": "center",
+            "wordWrapEnabled": false,
+            "visible": true,
+            "sorting": {
+              "index": 0,
+              "order": "asc",
+              "enabled": true
+            },
+            "editingEnabled": true,
+            "filtering": {
+              "enabled": false,
+              "operation": "Contains",
+              "value": null
+            },
+            "headerFilterEnabled": false,
+            "summaryTypes": [],
+            "summaryTypePrefixes": [],
+            "editControl": {
+              "name": "NewColumn1",
+              "controlId": "NewColumn1",
+              "controlType": "TextBox",
+              "visible": true,
+              "clientVisible": true,
+              "enabled": true,
+              "clientEnabled": true,
+              "style": {
+                "backgroundColor": ""
+              },
+              "containerStyle": {},
+              "customClassName": "",
+              "caption": {
+                "ellipsis": true,
+                "font": {
+                  "bold": false,
+                  "color": "#25241f",
+                  "family": "Source Sans Pro, sans-serif",
+                  "italic": false,
+                  "size": "13",
+                  "strikethrough": false,
+                  "underline": false
+                },
+                "position": "left",
+                "text": {},
+                "visible": true,
+                "size": {
+                  "width": 120
+                },
+                "horizontalAlign": "left",
+                "verticalAlign": "middle",
+                "showColon": false,
+                "markSettings": {
+                  "char": null,
+                  "position": "atFirst",
+                  "style": {}
+                }
+              },
+              "designerProps": {
+                "selected": false,
+                "allowAutoClear": true
+              },
+              "readOnly": false,
+              "ddl": {
+                "name": "column_asamayorumu",
+                "allowNull": true,
+                "size": 50,
+                "type": "String"
+              },
+              "text": "",
+              "placeholder": {},
+              "textAlign": "left",
+              "maxLength": 50,
+              "isSecretData": false,
+              "enableMultiLanguageText": false,
+              "multiLanguageText": {},
+              "showCharacterCounter": false,
+              "EntityPath": "column_asamayorumu"
+            },
+            "defaultValue": null,
+            "isPrimaryKey": false,
+            "autoIncrement": false,
+            "useThousandSeparator": false,
+            "precision": 0,
+            "format": null,
+            "hidingPriority": null,
+            "actionButtonProps": {
+              "name": "",
+              "text": {},
+              "title": {},
+              "icon": "search",
+              "typeName": "CreateFormArgs",
+              "args": {
+                "typeName": "CreateFormArgs",
+                "formName": null,
+                "projectName": null,
+                "size": 1,
+                "showOn": "panel",
+                "closeCurrentPanel": false,
+                "parameters": []
+              },
+              "visible": true
+            },
+            "iconMatchers": [],
+            "allowHiding": true,
+            "allowNull": true,
+            "showEditorAlways": false,
+            "dbType": {
+              "type": "string",
+              "columnName": "column_asamayorumu"
+            },
+            "formatType": {
+              "format": "",
+              "type": "label"
+            },
+            "editType": "textBox",
+            "sourceType": "base64",
+            "enlargeOnClick": false,
+            "imageWidth": 100,
+            "sizeUnit": "pixels",
+            "imageType": "smallImage",
+            "defaultImage": null,
+            "key": "3"
+          }
+        ]
+      },
+      "viewProperties": {},
+      "id": "DG_Tablo1",
+      "type": "DataGrid"
+    },
+    "Collapse_AtanacakPersBilg": {
+      "properties": {
+        "enabled": true,
+        "name": "Collapse_AtanacakPersBilg",
+        "ddl": {
+          "name": "Collapse_AtanacakPersBilg"
+        },
+        "orderNo": 0,
+        "commitId": 0,
+        "controlType": "Tab",
+        "title": {
+          "tr-TR": "Atanacak Personel Bilgileri"
+        },
+        "controlId": "07a1b04f-3caf-ae4a-e837-b5a61398178e",
+        "icon": "general",
+        "selected": true
+      },
+      "viewProperties": {},
+      "id": "Collapse_AtanacakPersBilg",
+      "type": "Tab"
+    },
+    "TBGorevAdi": {
+      "properties": {
+        "caption": {
+          "text": {
+            "tr-TR": "Görev Adı"
+          }
+        },
+        "name": "TBGorevAdi",
+        "ddl": {
+          "name": "TBGorevAdi"
+        },
+        "commitId": 10,
+        "controlId": "4227ae85-0c5f-e6e8-d896-872dc69bfa24",
+        "controlType": "TextBox",
+        "required": false
+      },
+      "viewProperties": {},
+      "id": "TBGorevAdi",
+      "type": "TextBox"
+    },
+    "LB_GorevSorulari": {
+      "properties": {
+        "items": [
+          {
+            "key": "soru1",
+            "value": "soru1",
+            "text": {
+              "tr-TR": "Yapılan görev ile ilgili doküman hazırlanacak mı?"
+            },
+            "selected": false
+          },
+          {
+            "key": "soru2",
+            "value": "soru2",
+            "text": {
+              "tr-TR": "Eğitim süreci olacak mı?"
+            },
+            "selected": false
+          },
+          {
+            "key": "soru3",
+            "value": "soru3",
+            "text": {
+              "tr-TR": "Kod örneği hazırlanacak mı?"
+            },
+            "selected": false
+          },
+          {
+            "key": "soru4",
+            "value": "soru4",
+            "text": {
+              "tr-TR": "Müşteri ortamlarına bağlantı yapılması gerekiyor  mu?"
+            },
+            "selected": false
+          },
+          {
+            "key": "soru5",
+            "value": "soru5",
+            "text": {
+              "tr-TR": "Geliştirme esnasında müşteriyle paralel mi ilerlenecek?"
+            },
+            "selected": false
+          },
+          {
+            "key": "soru6",
+            "value": "soru6",
+            "text": {
+              "tr-TR": "Destek birimleri için talepler oluşturulması gerekli mi?"
+            },
+            "selected": false
+          },
+          {
+            "key": "soru7",
+            "value": "soru7",
+            "text": {
+              "tr-TR": "Bilgilendirme maillerinde müşteriler bulunacak mı?"
+            },
+            "selected": false
+          }
+        ],
+        "dataSource": {
+          "connectionType": null,
+          "displayFormat": null,
+          "field": null
+        },
+        "caption": {
+          "position": "top",
+          "text": {
+            "tr-TR": "Görevlendirilecek personel"
+          }
+        },
+        "name": "LB_GorevSorulari",
+        "ddl": {
+          "name": "LB_GorevSorulari"
+        },
+        "commitId": 29,
+        "controlType": "ListBox",
+        "controlId": "9e9d0d44-4ac4-0cd2-c01f-1a28f53892ff",
+        "dataSourceType": "static",
+        "required": false
+      },
+      "viewProperties": {},
+      "id": "LB_GorevSorulari",
+      "type": "ListBox"
+    },
+    "FormMetadata1": {
+      "properties": {
+        "name": "FormMetadata1",
+        "controlId": "4b52ec37-eb0a-8a26-8a72-d454ad17e598",
+        "controlType": "FormMetadata",
+        "caption": {
+          "text": {
+            "tr-TR": "FormMetadata1"
+          }
+        },
+        "ddl": {
+          "name": "FormMetadata1"
+        },
+        "text": {
+          "tr-TR": "GorevAtamaSureci",
+          "en-US": "GorevAtamaSureci"
+        }
+      },
+      "viewProperties": {},
+      "id": "FormMetadata1",
+      "type": "FormMetadata"
+    },
+    "Rate_TamamlamaYuzdesi": {
+      "properties": {
+        "clientEvents": [
+          {
+            "name": "OnValueChanged",
+            "methodName": "Rate_TamamlamaYuzdesi_OnValueChanged"
+          },
+          {
+            "name": "OnValueChanging",
+            "methodName": "Rate_TamamlamaYuzdesi_OnValueChanging"
+          }
+        ],
+        "caption": {
+          "text": {
+            "tr-TR": "Görev Tamamlanma Yüzdesi"
+          }
+        },
+        "clientVisible": false,
+        "name": "Rate_TamamlamaYuzdesi",
+        "ddl": {
+          "name": "Rate_TamamlamaYuzdesi"
+        },
+        "count": 20,
+        "commitId": 25,
+        "controlType": "Rate",
+        "controlId": "0aec52bf-28a5-62f8-47f1-76cb76d2bc33",
+        "required": false
+      },
+      "viewProperties": {},
+      "id": "Rate_TamamlamaYuzdesi",
+      "type": "Rate"
+    }
+  },
+  "views": {
+    "default": {
+      "entities": {
+        "items": {
+          "Column8": {
+            "designerProps": {
+              "selected": false,
+              "locked": false,
+              "layout": {
+                "width": null,
+                "visible": true,
+                "clientVisible": true,
+                "padding": null
+              }
+            },
+            "parentId": "Section8",
+            "items": [
+              "Collapse1",
+              "Panel1"
+            ],
+            "id": "Column8",
+            "type": "Column"
+          },
+          "Column9": {
+            "designerProps": {
+              "selected": false,
+              "locked": false,
+              "layout": {
+                "width": null,
+                "visible": true,
+                "clientVisible": true,
+                "padding": null
+              }
+            },
+            "parentId": "Section3",
+            "items": [
+              "DocMDdatetime",
+              "DocMDgorevno"
+            ],
+            "id": "Column9",
+            "type": "Column"
+          },
+          "Collapse1": {
+            "designerProps": {
+              "selected": false,
+              "locked": false,
+              "layout": {
+                "width": null,
+                "visible": true,
+                "clientVisible": true,
+                "padding": null
+              }
+            },
+            "parentId": "Column8",
+            "items": [
+              "Collapse_GorevBilgileri",
+              "Collapse_YapilacakAksiyonlar",
+              "Collapse_AtanacakPersBilg"
+            ],
+            "id": "Collapse1",
+            "type": "Collapse"
+          },
+          "MDAdSoyad": {
+            "designerProps": {
+              "selected": false,
+              "locked": false,
+              "layout": {
+                "width": null,
+                "visible": true,
+                "clientVisible": true,
+                "padding": null
+              }
+            },
+            "parentId": "Column3",
+            "items": [],
+            "id": "MDAdSoyad",
+            "type": "UserMetadata"
+          },
+          "DTBitis": {
+            "designerProps": {
+              "selected": false,
+              "locked": false,
+              "layout": {
+                "width": null,
+                "visible": true,
+                "clientVisible": true,
+                "padding": null
+              }
+            },
+            "parentId": "Column2",
+            "items": [],
+            "id": "DTBitis",
+            "type": "DateTimePicker"
+          },
+          "RadioList_GorevOnemDerecesi": {
+            "designerProps": {
+              "selected": false,
+              "locked": false,
+              "layout": {
+                "width": null,
+                "visible": true,
+                "clientVisible": true,
+                "padding": null
+              }
+            },
+            "parentId": "Column2",
+            "items": [],
+            "id": "RadioList_GorevOnemDerecesi",
+            "type": "RadioList"
+          },
+          "DocMDdatetime": {
+            "designerProps": {
+              "selected": false,
+              "locked": false,
+              "layout": {
+                "width": null,
+                "visible": true,
+                "clientVisible": true,
+                "padding": null
+              }
+            },
+            "parentId": "Column9",
+            "items": [],
+            "id": "DocMDdatetime",
+            "type": "DocumentMetadata"
+          },
+          "Collapse_YapilacakAksiyonlar": {
+            "designerProps": {
+              "selected": false,
+              "locked": false,
+              "layout": {
+                "width": null,
+                "visible": true,
+                "clientVisible": true,
+                "padding": null
+              }
+            },
+            "parentId": "Collapse1",
+            "items": [
+              "Section4"
+            ],
+            "id": "Collapse_YapilacakAksiyonlar",
+            "type": "Tab"
+          },
+          "DTBaslangic": {
+            "designerProps": {
+              "selected": false,
+              "locked": false,
+              "layout": {
+                "width": null,
+                "visible": true,
+                "clientVisible": true,
+                "padding": null
+              }
+            },
+            "parentId": "Column2",
+            "items": [],
+            "id": "DTBaslangic",
+            "type": "DateTimePicker"
+          },
+          "Section2": {
+            "designerProps": {
+              "selected": false,
+              "locked": false,
+              "layout": {
+                "width": null,
+                "visible": true,
+                "clientVisible": true,
+                "padding": null
+              }
+            },
+            "parentId": "Collapse_AtanacakPersBilg",
+            "items": [
+              "Column2"
+            ],
+            "id": "Section2",
+            "type": "Section"
+          },
+          "DocMDgorevno": {
+            "designerProps": {
+              "selected": false,
+              "locked": false,
+              "layout": {
+                "width": null,
+                "visible": true,
+                "clientVisible": true,
+                "padding": null
+              }
+            },
+            "parentId": "Column9",
+            "items": [],
+            "id": "DocMDgorevno",
+            "type": "DocumentMetadata"
+          },
+          "NB_KalanSure": {
+            "designerProps": {
+              "selected": false,
+              "locked": false,
+              "layout": {
+                "width": null,
+                "visible": true,
+                "clientVisible": true,
+                "padding": null
+              }
+            },
+            "parentId": "Column10",
+            "items": [],
+            "id": "NB_KalanSure",
+            "type": "NumberBox"
+          },
+          "Panel1": {
+            "designerProps": {
+              "selected": true,
+              "locked": false,
+              "layout": {
+                "width": null,
+                "visible": true,
+                "clientVisible": true,
+                "padding": null
+              }
+            },
+            "parentId": "Column8",
+            "items": [
+              "Section9"
+            ],
+            "id": "Panel1",
+            "type": "Panel"
+          },
+          "Form1": {
+            "designerProps": {
+              "selected": false,
+              "locked": false,
+              "layout": {
+                "width": null,
+                "visible": true,
+                "clientVisible": true,
+                "padding": null
+              }
+            },
+            "parentId": null,
+            "items": [
+              "Section3",
+              "Section8"
+            ],
+            "id": "Form1",
+            "type": "Form"
+          },
+          "Collapse_GorevBilgileri": {
+            "designerProps": {
+              "selected": false,
+              "locked": false,
+              "layout": {
+                "width": null,
+                "visible": true,
+                "clientVisible": true,
+                "padding": null
+              }
+            },
+            "parentId": "Collapse1",
+            "items": [
+              "Section5"
+            ],
+            "id": "Collapse_GorevBilgileri",
+            "type": "Tab"
+          },
+          "Section3": {
+            "designerProps": {
+              "selected": false,
+              "locked": false,
+              "layout": {
+                "width": null,
+                "visible": true,
+                "clientVisible": true,
+                "padding": null
+              }
+            },
+            "parentId": "Form1",
+            "items": [
+              "Column3",
+              "Column9"
+            ],
+            "id": "Section3",
+            "type": "Section"
+          },
+          "Section4": {
+            "designerProps": {
+              "selected": false,
+              "locked": false,
+              "layout": {
+                "width": null,
+                "visible": true,
+                "clientVisible": true,
+                "padding": null
+              }
+            },
+            "parentId": "Collapse_YapilacakAksiyonlar",
+            "items": [
+              "Column4"
+            ],
+            "id": "Section4",
+            "type": "Section"
+          },
+          "Section5": {
+            "designerProps": {
+              "selected": false,
+              "locked": false,
+              "layout": {
+                "width": null,
+                "visible": true,
+                "clientVisible": true,
+                "padding": null
+              }
+            },
+            "parentId": "Collapse_GorevBilgileri",
+            "items": [
+              "Column5"
+            ],
+            "id": "Section5",
+            "type": "Section"
+          },
+          "CBGorevlendirilecekPers": {
+            "designerProps": {
+              "selected": false,
+              "locked": false,
+              "layout": {
+                "width": null,
+                "visible": true,
+                "clientVisible": true,
+                "padding": null
+              }
+            },
+            "parentId": "Column2",
+            "items": [],
+            "id": "CBGorevlendirilecekPers",
+            "type": "ComboBox"
+          },
+          "TAGorevTanimi": {
+            "designerProps": {
+              "selected": false,
+              "locked": false,
+              "layout": {
+                "width": null,
+                "visible": true,
+                "clientVisible": true,
+                "padding": null
+              }
+            },
+            "parentId": "Column5",
+            "items": [],
+            "id": "TAGorevTanimi",
+            "type": "TextArea"
+          },
+          "Section8": {
+            "designerProps": {
+              "selected": false,
+              "locked": false,
+              "layout": {
+                "width": null,
+                "visible": true,
+                "clientVisible": true,
+                "padding": null
+              }
+            },
+            "parentId": "Form1",
+            "items": [
+              "Column8"
+            ],
+            "id": "Section8",
+            "type": "Section"
+          },
+          "RDGorevDosyalari": {
+            "designerProps": {
+              "selected": false,
+              "locked": false,
+              "layout": {
+                "width": null,
+                "visible": true,
+                "clientVisible": true,
+                "padding": null
+              }
+            },
+            "parentId": "Column5",
+            "items": [],
+            "id": "RDGorevDosyalari",
+            "type": "RelatedDocuments"
+          },
+          "Section9": {
+            "designerProps": {
+              "selected": false,
+              "locked": false,
+              "layout": {
+                "width": null,
+                "visible": true,
+                "clientVisible": true,
+                "padding": null
+              }
+            },
+            "parentId": "Panel1",
+            "items": [
+              "Column10"
+            ],
+            "id": "Section9",
+            "type": "Section"
+          },
+          "Column10": {
+            "designerProps": {
+              "selected": false,
+              "locked": false,
+              "layout": {
+                "width": null,
+                "visible": true,
+                "clientVisible": true,
+                "padding": null
+              }
+            },
+            "parentId": "Section9",
+            "items": [
+              "NB_KalanSure",
+              "Rate_TamamlamaYuzdesi",
+              "DG_Tablo1"
+            ],
+            "id": "Column10",
+            "type": "Column"
+          },
+          "DG_Tablo1": {
+            "designerProps": {
+              "selected": false,
+              "locked": false,
+              "layout": {
+                "width": null,
+                "visible": true,
+                "clientVisible": true,
+                "padding": null
+              }
+            },
+            "parentId": "Column10",
+            "items": [],
+            "id": "DG_Tablo1",
+            "type": "DataGrid"
+          },
+          "Collapse_AtanacakPersBilg": {
+            "designerProps": {
+              "selected": false,
+              "locked": false,
+              "layout": {
+                "width": null,
+                "visible": true,
+                "clientVisible": true,
+                "padding": null
+              }
+            },
+            "parentId": "Collapse1",
+            "items": [
+              "Section2"
+            ],
+            "id": "Collapse_AtanacakPersBilg",
+            "type": "Tab"
+          },
+          "TBGorevAdi": {
+            "designerProps": {
+              "selected": false,
+              "locked": false,
+              "layout": {
+                "width": null,
+                "visible": true,
+                "clientVisible": true,
+                "padding": null
+              }
+            },
+            "parentId": "Column5",
+            "items": [],
+            "id": "TBGorevAdi",
+            "type": "TextBox"
+          },
+          "Column2": {
+            "designerProps": {
+              "selected": false,
+              "locked": false,
+              "layout": {
+                "width": null,
+                "visible": true,
+                "clientVisible": true,
+                "padding": null
+              }
+            },
+            "parentId": "Section2",
+            "items": [
+              "CBGorevlendirilecekPers",
+              "DTBaslangic",
+              "DTBitis",
+              "RadioList_GorevOnemDerecesi"
+            ],
+            "id": "Column2",
+            "type": "Column"
+          },
+          "LB_GorevSorulari": {
+            "designerProps": {
+              "selected": false,
+              "locked": false,
+              "layout": {
+                "width": null,
+                "visible": true,
+                "clientVisible": true,
+                "padding": null
+              }
+            },
+            "parentId": "Column4",
+            "items": [],
+            "id": "LB_GorevSorulari",
+            "type": "ListBox"
+          },
+          "Column3": {
+            "designerProps": {
+              "selected": false,
+              "locked": false,
+              "layout": {
+                "width": null,
+                "visible": true,
+                "clientVisible": true,
+                "padding": null
+              }
+            },
+            "parentId": "Section3",
+            "items": [
+              "FormMetadata1",
+              "MDAdSoyad"
+            ],
+            "id": "Column3",
+            "type": "Column"
+          },
+          "FormMetadata1": {
+            "designerProps": {
+              "selected": false,
+              "locked": false,
+              "layout": {
+                "width": null,
+                "visible": true,
+                "clientVisible": true,
+                "padding": null
+              }
+            },
+            "parentId": "Column3",
+            "items": [],
+            "id": "FormMetadata1",
+            "type": "FormMetadata"
+          },
+          "Column4": {
+            "designerProps": {
+              "selected": false,
+              "locked": false,
+              "layout": {
+                "width": null,
+                "visible": true,
+                "clientVisible": true,
+                "padding": null
+              }
+            },
+            "parentId": "Section4",
+            "items": [
+              "LB_GorevSorulari"
+            ],
+            "id": "Column4",
+            "type": "Column"
+          },
+          "Rate_TamamlamaYuzdesi": {
+            "designerProps": {
+              "selected": false,
+              "locked": false,
+              "layout": {
+                "width": null,
+                "visible": true,
+                "clientVisible": true,
+                "padding": null
+              }
+            },
+            "parentId": "Column10",
+            "items": [],
+            "id": "Rate_TamamlamaYuzdesi",
+            "type": "Rate"
+          },
+          "Column5": {
+            "designerProps": {
+              "selected": false,
+              "locked": false,
+              "layout": {
+                "width": null,
+                "visible": true,
+                "clientVisible": true,
+                "padding": null
+              }
+            },
+            "parentId": "Section5",
+            "items": [
+              "TBGorevAdi",
+              "TAGorevTanimi",
+              "RDGorevDosyalari"
+            ],
+            "id": "Column5",
+            "type": "Column"
+          }
+        },
+        "ghostItems": {}
+      },
+      "result": [
+        "Form1"
+      ],
+      "description": null
+    }
+  },
+  "activeView": "default",
+  "version": 10
+}

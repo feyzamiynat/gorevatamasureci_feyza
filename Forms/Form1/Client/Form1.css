@@ -1,0 +1,13 @@
+/******/
+
+.kalanSureVar input.ant-input-number-input {
+    background-color: rgb(176, 233, 176) !important; 
+    font-style: bold;
+    color: white
+}
+
+.kalanSureYok input.ant-input-number-input {
+    background-color: rgb(238, 2, 2) !important; 
+    font-style: bold;
+    color: white
+}
